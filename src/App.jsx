@@ -184,7 +184,7 @@ function App() {
                         </a>
 
                         <a
-                            href="https://www.facebook.com"
+                            href="https://www.facebook.com/profile.php?id=61585367008802"
                             target="_blank"
                             rel="noreferrer"
                             aria-label="Facebook"
