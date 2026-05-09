@@ -198,7 +198,7 @@ function App() {
             </main>
 
             <footer>
-                <p>© 2026 Snap Decisions Football Academy. Winning starts before the snap.</p>
+                <p>© 2026 Snap Decisions Football Academy. Winning starts before the snap!</p>
             </footer>
         </div>
     );
