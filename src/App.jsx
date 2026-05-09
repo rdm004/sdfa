@@ -145,7 +145,7 @@ function App() {
 
                         <div className="card">
                             <h3>Lead With Confidence</h3>
-                            <p>Control attitude, effort, discipline, and communication.</p>
+                            <p>Control attitude, effort, and discipline.</p>
                         </div>
                     </div>
                 </section>
