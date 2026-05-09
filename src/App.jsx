@@ -1,0 +1,207 @@
+import './App.css';
+import logo from './assets/qb_transparent.png'
+import navlogo from './assets/qb_transparent_website.png'
+
+import {
+    FaYoutube,
+    FaInstagram,
+    FaTiktok,
+    FaFacebook
+} from 'react-icons/fa';
+
+function App() {
+    const youtubeUrl = 'https://www.youtube.com/@SnapDecisionsFA';
+
+    return (
+        <div className="site">
+            <nav className="navbar">
+                <a className="brand" href="#home">
+  <span className="logo-wrap">
+    <img src={navlogo} alt="Snap Decisions Football Academy Logo" className="logo" />
+  </span>
+                    <span>Snap Decisions Football Academy</span>
+                </a>
+
+                <div className="nav-links">
+                    <a href="#videos">Videos</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+
+            <main>
+                <section id="home" className="hero">
+                    <img
+                        src={logo}
+                        alt="SDFA Background Logo"
+                        className="hero-bg-logo"
+                    />
+
+                    <div className="hero-content">
+                        <p className="eyebrow">QB Development • Football IQ • Leadership</p>
+
+                        <h1>
+                            Winning Starts <span>Before the Snap</span>
+                        </h1>
+
+                        <p className="hero-text">
+                            Snap Decisions Football Academy helps quarterbacks, athletes, parents,
+                            and coaches understand the game at a deeper level.
+                        </p>
+
+                        <div className="hero-buttons centered">
+                            <a className="btn primary" href="#videos">Watch Breakdowns</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="videos" className="section">
+                    <div className="section-header">
+                        <p className="eyebrow">Film Room</p>
+                        <h2>Featured Breakdown</h2>
+                        <p>
+                            Start learning how to read defenses before the snap with simple,
+                            direct QB coaching.
+                        </p>
+                    </div>
+
+                    <div className="video-card">
+                        <div className="video-frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/Nc25aqaHiDU"
+                                title="How to Read a Defense Before the Snap"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowFullScreen
+                            />
+                        </div>
+
+                        <div className="video-info">
+                            <span className="tag">QB IQ Series</span>
+                            <h3>How to Read a Defense Before the Snap</h3>
+                            <p>
+                                Start with the safeties, check cornerback depth, read their eyes,
+                                and put it all together.
+                            </p>
+                            <a className="text-link" href={youtubeUrl} target="_blank" rel="noreferrer">
+                                Watch more on YouTube →
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="about" className="section dark">
+                    <div className="two-column about-section">
+                        <div>
+
+                            <h2>
+                                Understand the game <span>before the snap.</span>
+                            </h2>
+                            <p className="about-lead">
+                                Built for quarterbacks, athletes, parents, and coaches who want the game explained clearly.
+                            </p>
+                        </div>
+
+                        <div className="about-content">
+                            <p>
+                                Snap Decisions Football Academy was created to help quarterbacks and athletes
+                                understand the game at a deeper level. The goal is not just to teach players
+                                what to do, but to help them understand why they are doing it.
+                            </p>
+
+                            <p>
+                                We focus on football IQ, defensive recognition, decision-making, leadership,
+                                confidence, and the mental side of the game. Players who can recognize what
+                                they are seeing before the snap are better prepared to play fast and make
+                                confident decisions.
+                            </p>
+
+
+                            <div className="about-list">
+                                <span>Pre-snap recognition</span>
+                                <span>Coverage understanding</span>
+                                <span>QB decision-making</span>
+                                <span>Leadership & confidence</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="section cards-section">
+                    <div className="section-header">
+                        <p className="eyebrow">What We Teach</p>
+                        <h2>Simple concepts. Real football value.</h2>
+                    </div>
+
+                    <div className="cards">
+                        <div className="card">
+                            <h3>Read Defenses</h3>
+                            <p>Safeties, corners, coverage structure, and pre-snap clues.</p>
+                        </div>
+
+                        <div className="card">
+                            <h3>Make Faster Decisions</h3>
+                            <p>Stop guessing and learn how to simplify the picture.</p>
+                        </div>
+
+                        <div className="card">
+                            <h3>Lead With Confidence</h3>
+                            <p>Control attitude, effort, discipline, and communication.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contact" className="section contact">
+                    <p className="eyebrow">Connect</p>
+                    <h2>Follow the academy</h2>
+                    <p>New QB breakdowns, football IQ videos, and leadership content.</p>
+
+                    <div className="socials">
+                        <a
+                            href={youtubeUrl}
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="YouTube"
+                        >
+                            <FaYoutube />
+                        </a>
+
+                        <a
+                            href="https://www.tiktok.com/@snapdecisionsfa"
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="TikTok"
+                        >
+                            <FaTiktok />
+                        </a>
+
+                        <a
+                            href="https://www.instagram.com/snapdecisionsfa"
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="Instagram"
+                        >
+                            <FaInstagram />
+                        </a>
+
+                        <a
+                            href="https://www.facebook.com"
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="Facebook"
+                        >
+                            <FaFacebook />
+                        </a>
+                    </div>
+
+                    <p className="social-handle">@snapdecisionsfa</p>
+                </section>
+            </main>
+
+            <footer>
+                <p>© 2026 Snap Decisions Football Academy. Winning starts before the snap.</p>
+            </footer>
+        </div>
+    );
+}
+
+export default App;
