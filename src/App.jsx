@@ -195,6 +195,7 @@ function App() {
                     </div>
 
                     <p className="social-handle">@snapdecisionsfa</p>
+                    <p>snapdecisionsfa@gmail.com</p>
                 </section>
             </main>
 
