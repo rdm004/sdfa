@@ -129,7 +129,8 @@ function App() {
                 <section className="section cards-section">
                     <div className="section-header">
                         <p className="eyebrow">What We Teach</p>
-                        <h2>Simple concepts. Real football value.</h2>
+                        <h2>Simple concepts.</h2>
+                        <h2> Real football value.</h2>
                     </div>
 
                     <div className="cards">
