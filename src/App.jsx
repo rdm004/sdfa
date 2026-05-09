@@ -195,7 +195,13 @@ function App() {
                     </div>
 
                     <p className="social-handle">@snapdecisionsfa</p>
-                    <p>snapdecisionsfa@gmail.com</p>
+
+                    <div className="email-box">
+                        <span className="email-icon">⌲</span>
+                        <a href="mailto:snapdecisionsfa@gmail.com">
+                            snapdecisionsfa@gmail.com
+                        </a>
+                    </div>
                 </section>
             </main>
 

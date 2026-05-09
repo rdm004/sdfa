@@ -455,6 +455,77 @@ a {
     max-width: 460px;
   }
 
+.social-handle {
+  margin-top: 22px;
+  color: var(--muted);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.email-box {
+  margin-top: 22px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+
+  padding: 18px 28px;
+
+  border: 2px solid rgba(63, 169, 245, 0.9);
+  border-radius: 18px;
+
+  background:
+          linear-gradient(
+                  135deg,
+                  rgba(2, 8, 18, 0.95),
+                  rgba(7, 23, 39, 0.85)
+          );
+
+  box-shadow:
+          0 0 24px rgba(63, 169, 245, 0.12);
+
+  backdrop-filter: blur(8px);
+
+  transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease,
+          border-color 0.2s ease;
+}
+
+.email-box:hover {
+  transform: translateY(-3px);
+
+  border-color: var(--green);
+
+  box-shadow:
+          0 0 32px rgba(153, 219, 110, 0.18);
+}
+
+.email-box a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.email-box a:hover {
+  color: var(--green);
+}
+
+.email-icon {
+  color: var(--blue);
+
+  font-size: 1.7rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transform: translateY(-1px);
+}
+
 
   @media (max-width: 850px) {
     .navbar {
