@@ -68,7 +68,7 @@ function App() {
                     <div className="video-card">
                         <div className="video-frame">
                             <iframe
-                                src="https://www.youtube.com/shorts/AIWr7YJhYH0"
+                                src="https://www.youtube.com/embed/AIWr7YJhYH0"
                                 title="How to Read a Defense Before the Snap"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowFullScreen
