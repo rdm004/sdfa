@@ -55,6 +55,11 @@ function App() {
                     </div>
                 </section>
 
+                <div className="section-divider">
+                    <span className="divider-icon">⌁</span>
+                </div>
+
+
                 <section className="section intro-video">
                     <div className="section-header">
                         <p className="eyebrow">Welcome to SDFA</p>
@@ -76,6 +81,10 @@ function App() {
                         />
                     </div>
                 </section>
+
+                <div className="section-divider">
+                    <span className="divider-icon">⌁</span>
+                </div>
 
 
 
@@ -112,6 +121,11 @@ function App() {
                         </div>
                     </div>
                 </section>
+
+                <div className="section-divider">
+                    <span className="divider-icon">⌁</span>
+                </div>
+
 
                 <section id="about" className="section dark">
                     <div className="two-column about-section">
@@ -150,6 +164,10 @@ function App() {
                     </div>
                 </section>
 
+                <div className="section-divider">
+                    <span className="divider-icon">⌁</span>
+                </div>
+
                 <section className="section cards-section">
                     <div className="section-header">
                         <p className="eyebrow">What We Teach</p>
@@ -174,6 +192,10 @@ function App() {
                         </div>
                     </div>
                 </section>
+
+                <div className="section-divider">
+                    <span className="divider-icon">⌁</span>
+                </div>
 
                 <section id="contact" className="section contact">
                     <p className="eyebrow">Connect</p>
