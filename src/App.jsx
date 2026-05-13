@@ -55,6 +55,30 @@ function App() {
                     </div>
                 </section>
 
+                <section className="section intro-video">
+                    <div className="section-header">
+                        <p className="eyebrow">Welcome to SDFA</p>
+
+                        <h2>Why I Started Snap Decisions Football Academy</h2>
+
+                        <p>
+                            Learn the mission behind SDFA and why understanding the game
+                            before the snap matters.
+                        </p>
+                    </div>
+
+                    <div className="intro-video-frame">
+                        <iframe
+                            src="https://www.youtube.com/embed/H7EtHs1gw1c"
+                            title="Why I Started SDFA"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen
+                        />
+                    </div>
+                </section>
+
+
+
                 <section id="videos" className="section">
                     <div className="section-header">
                         <p className="eyebrow">Film Room</p>
