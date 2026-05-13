@@ -56,7 +56,9 @@ function App() {
                 </section>
 
                 <div className="section-divider">
-                    <span className="divider-icon">⌁</span>
+                    <div className="divider-icon">
+                        <img src={logo} alt="SDFA Divider Logo" />
+                    </div>
                 </div>
 
 
@@ -83,7 +85,9 @@ function App() {
                 </section>
 
                 <div className="section-divider">
-                    <span className="divider-icon">⌁</span>
+                    <div className="divider-icon">
+                        <img src={logo} alt="SDFA Divider Logo" />
+                    </div>
                 </div>
 
 
@@ -123,7 +127,9 @@ function App() {
                 </section>
 
                 <div className="section-divider">
-                    <span className="divider-icon">⌁</span>
+                    <div className="divider-icon">
+                        <img src={logo} alt="SDFA Divider Logo" />
+                    </div>
                 </div>
 
 
@@ -165,7 +171,9 @@ function App() {
                 </section>
 
                 <div className="section-divider">
-                    <span className="divider-icon">⌁</span>
+                    <div className="divider-icon">
+                        <img src={logo} alt="SDFA Divider Logo" />
+                    </div>
                 </div>
 
                 <section className="section cards-section">
@@ -194,7 +202,9 @@ function App() {
                 </section>
 
                 <div className="section-divider">
-                    <span className="divider-icon">⌁</span>
+                    <div className="divider-icon">
+                        <img src={logo} alt="SDFA Divider Logo" />
+                    </div>
                 </div>
 
                 <section id="contact" className="section contact">
