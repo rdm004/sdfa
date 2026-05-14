@@ -561,17 +561,12 @@ a {
 
 .section-divider::before {
   content: "";
-
   position: absolute;
-
   left: 0;
   top: 50%;
-
   width: 100%;
   height: 1px;
-
   transform: translateY(-50%);
-
   background: linear-gradient(
           90deg,
           transparent,
@@ -593,8 +588,7 @@ a {
   border-radius: 50%;
   background: #071727;
   border: 1px solid rgba(63, 169, 245, 0.4);
-  box-shadow:
-          0 0 18px rgba(63, 169, 245, 0.18);
+  box-shadow: 0 0 18px rgba(63, 169, 245, 0.18);
 }
 
 .divider-icon img {
@@ -607,7 +601,127 @@ a {
   left: 2px;
 }
 
+.mission-section {
+  position: relative;
+}
 
+.mission-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mission-card {
+  position: relative;
+
+  background:
+          linear-gradient(
+                  145deg,
+                  rgba(7, 23, 39, 0.96),
+                  rgba(11, 31, 58, 0.82)
+          );
+
+  border: 1px solid var(--border);
+
+  border-radius: 22px;
+
+  padding: 36px;
+
+  overflow: hidden;
+
+  box-shadow:
+          0 20px 60px rgba(0, 0, 0, 0.28);
+
+  transition:
+          transform 0.25s ease,
+          border-color 0.25s ease,
+          box-shadow 0.25s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-6px);
+
+  border-color: rgba(153, 219, 110, 0.45);
+
+  box-shadow:
+          0 25px 70px rgba(0, 0, 0, 0.35);
+}
+
+.mission-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: -120px;
+  right: -120px;
+
+  width: 240px;
+  height: 240px;
+
+  background:
+          radial-gradient(
+                  circle,
+                  rgba(63, 169, 245, 0.12),
+                  transparent 70%
+          );
+
+  pointer-events: none;
+}
+
+.mission-card h3 {
+  font-size: 1.9rem;
+
+  margin-bottom: 22px;
+
+  color: var(--blue);
+
+  text-transform: uppercase;
+
+  letter-spacing: 1px;
+}
+
+.mission-card p {
+  color: var(--muted);
+
+  line-height: 1.85;
+
+  margin-bottom: 18px;
+
+  font-size: 1.02rem;
+}
+
+.mission-quote {
+  margin-top: 30px;
+
+  padding-top: 22px;
+
+  border-top: 1px solid rgba(63, 169, 245, 0.2);
+
+  color: var(--green);
+
+  font-size: 1.15rem;
+
+  font-weight: 900;
+
+  text-transform: uppercase;
+
+  letter-spacing: 1px;
+}
+
+@media (max-width: 850px) {
+  .mission-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mission-card {
+    padding: 28px;
+  }
+}
+
+/*---------------------------------------------------------------------------*/
   @media (max-width: 850px) {
     .navbar {
       align-items: flex-start;

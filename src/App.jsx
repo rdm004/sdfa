@@ -176,6 +176,65 @@ function App() {
                     </div>
                 </div>
 
+                <section className="section mission-section">
+                    <div className="section-header">
+                        <p className="eyebrow">Our Purpose</p>
+
+                    </div>
+
+                    <div className="mission-grid">
+
+                        <div className="mission-card">
+                            <h3>Mission Statement</h3>
+
+                            <p>
+                                Snap Decisions Football Academy exists to help athletes,
+                                parents, coaches, and football fans better understand the game
+                                through football IQ, leadership, confidence, and decision-making
+                                development.
+                            </p>
+
+                            <p>
+                                Our goal is to simplify complex football concepts, teach athletes
+                                how to recognize what they see before the snap, and help players
+                                develop confidence both on and off the field.
+                            </p>
+
+                            <p>
+                                We believe athletes play faster, smarter, and more confidently
+                                when they truly understand the game.
+                            </p>
+                        </div>
+
+                        <div className="mission-card">
+                            <h3>Vision Statement</h3>
+
+                            <p>
+                                Our vision is to build a community where athletes, parents,
+                                and coaches can grow their understanding of football together
+                                while developing leadership, confidence, discipline,
+                                and football IQ.
+                            </p>
+
+                            <p>
+                                We aim to make the game more accessible, more understandable,
+                                and more enjoyable for everyone who loves football.
+                            </p>
+
+                            <div className="mission-quote">
+                                Winning starts before the snap.
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <div className="section-divider">
+                    <div className="divider-icon">
+                        <img src={logo} alt="SDFA Divider Logo" />
+                    </div>
+                </div>
+
                 <section className="section cards-section">
                     <div className="section-header">
                         <p className="eyebrow">What We Teach</p>
