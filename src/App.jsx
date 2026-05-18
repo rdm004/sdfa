@@ -66,21 +66,39 @@ function App() {
                     <div className="section-header">
                         <p className="eyebrow">Welcome to SDFA</p>
 
-                        <h2>Why I Started Snap Decisions Football Academy</h2>
+                        <h2>Start Here</h2>
 
                         <p>
-                            Learn the mission behind SDFA and why understanding the game
-                            before the snap matters.
+                            Learn why SDFA was created and who this content is built for.
                         </p>
                     </div>
 
-                    <div className="intro-video-frame">
-                        <iframe
-                            src="https://www.youtube.com/embed/H7EtHs1gw1c"
-                            title="Why I Started SDFA"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowFullScreen
-                        />
+                    <div className="intro-video-grid">
+                        <div className="intro-video-card">
+                            <h3>Why I Started SDFA</h3>
+
+                            <div className="intro-video-frame">
+                                <iframe
+                                    src="https://www.youtube.com/embed/H7EtHs1gw1c"
+                                    title="Why I Started SDFA"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                />
+                            </div>
+                        </div>
+
+                        <div className="intro-video-card">
+                            <h3>Who This Content Is For</h3>
+
+                            <div className="intro-video-frame">
+                                <iframe
+                                    src="https://www.youtube.com/embed/Em0d6LsALvQ"
+                                    title="Who This Content Is For"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                />
+                            </div>
+                        </div>
                     </div>
                 </section>
 
