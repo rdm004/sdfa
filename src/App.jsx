@@ -75,12 +75,12 @@ function App() {
 
                     <div className="intro-video-grid">
                         <div className="intro-video-card">
-                            <h3>Why I Started SDFA</h3>
+                            {/*<h3>Why I Started SDFA</h3>*/}
 
                             <div className="intro-video-frame">
                                 <iframe
                                     src="https://www.youtube.com/embed/H7EtHs1gw1c"
-                                    title="Why I Started SDFA"
+                                    // title="Why I Started SDFA"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowFullScreen
                                 />
@@ -88,7 +88,7 @@ function App() {
                         </div>
 
                         <div className="intro-video-card">
-                            <h3>Who This Content Is For</h3>
+                            {/*<h3>Who This Content Is For</h3>*/}
 
                             <div className="intro-video-frame">
                                 <iframe
