@@ -66,10 +66,10 @@ function App() {
                     <div className="section-header">
                         <p className="eyebrow">Welcome to SDFA</p>
 
-                        <h2>Start Here</h2>
-
                         <p>
-                            Learn why SDFA was created and who this content is built for.
+                            Learn why SDFA was created and how football IQ,
+                            leadership, and decision-making can help athletes
+                            understand the game before the snap.
                         </p>
                     </div>
 
