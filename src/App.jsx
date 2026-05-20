@@ -331,8 +331,8 @@ function App() {
 
                     <div className="email-box">
                         <span className="email-icon">⌲</span>
-                        <a href="mailto:snapdecisionsfa@gmail.com">
-                            snapdecisionsfa@gmail.com
+                        <a href="mailto:coachryan@snapdecisionsfa.com">
+                            coachryan@snapdecisionsfa.com
                         </a>
                     </div>
                 </section>
