@@ -425,6 +425,7 @@ a {
   background: rgba(153, 219, 110, 0.06);
   white-space: nowrap;
   text-align: center;
+  letter-spacing: 0.5px;
 }
 
   .about-section > div:first-child {
