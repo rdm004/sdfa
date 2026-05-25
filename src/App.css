@@ -408,7 +408,7 @@ a {
   .about-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 10px;
     margin-top: 28px;
     justify-content: flex-start;
   }
