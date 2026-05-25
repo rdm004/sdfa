@@ -179,10 +179,10 @@ function App() {
 
 
                             <div className="about-list">
-                                <span>Pre-snap recognition</span>
-                                <span>Coverage understanding</span>
-                                <span>QB decision-making</span>
-                                <span>Leadership & confidence</span>
+                                <span>Pre-snap Recognition</span>
+                                <span>Coverage Understanding</span>
+                                <span>QB Decision-Making</span>
+                                <span>Leadership & Confidence</span>
                             </div>
                         </div>
                     </div>
