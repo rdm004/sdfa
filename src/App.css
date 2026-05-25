@@ -405,25 +405,27 @@ a {
     text-align: left;
   }
 
-  .about-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 28px;
-    justify-content: flex-start;
-  }
+.about-list {
+  font-size: 0.8rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  margin-top: 28px;
+}
 
-  .about-list span {
-    display: inline-flex;
-    align-items: center;
-    border: 1px solid var(--border);
-    color: var(--green);
-    padding: 10px 14px;
-    border-radius: 999px;
-    font-weight: 800;
-    background: rgba(153, 219, 110, 0.06);
-    white-space: nowrap;
-  }
+.about-list span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  color: var(--green);
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-weight: 800;
+  background: rgba(153, 219, 110, 0.06);
+  white-space: nowrap;
+  text-align: center;
+}
 
   .about-section > div:first-child {
     max-width: 520px;
