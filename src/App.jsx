@@ -118,13 +118,14 @@ function App() {
                             Start learning how to read defenses before the snap with simple,
                             direct QB coaching.
                         </p>
+
                     </div>
 
                     <div className="video-card">
                         <div className="video-frame">
                             <iframe
-                                src="https://www.youtube.com/embed/AIWr7YJhYH0"
-                                title="How to Read a Defense Before the Snap"
+                                src="https://www.youtube.com/embed/APPcuscZ5AQ"
+                                title="Understanding The Coverage Before The Snap"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowFullScreen
                             />
