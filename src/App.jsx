@@ -6,12 +6,9 @@ import navlogo from './assets/qb_transparent_website.png';
 import{
     FaCheckCircle,
     FaChessKnight,
-
 }from'react-icons/fa';
-
-import { PiBookOpenTextFill } from "react-icons/pi";
-
 import{GiAmericanFootballHelmet}from'react-icons/gi';
+import { LuNotebookPen } from "react-icons/lu";
 
 import {
     FaYoutube,
@@ -300,7 +297,7 @@ function App() {
 
                         <div className="pillar-card">
                             <div className="pillar-icon pillar-icon-green">
-                                <PiBookOpenTextFill/>
+                                <LuNotebookPen />
                             </div>
 
                             <h3>Football IQ</h3>
