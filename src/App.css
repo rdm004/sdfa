@@ -488,6 +488,10 @@ h1 span {
   align-items: start;
 }
 
+.two-column h2{
+  padding-bottom:82px;
+}
+
 .about-section {
   align-items: center;
 }
@@ -858,28 +862,13 @@ h1 span {
   pointer-events: none;
 }
 
-/*.control-number {*/
-/*  width: 46px;*/
-/*  height: 46px;*/
-/*  margin-bottom: 22px;*/
-/*  display: inline-flex;*/
-/*  align-items: center;*/
-/*  justify-content: center;*/
-/*  color: var(--green);*/
-/*  background: rgba(153, 219, 110, 0.08);*/
-/*  border: 1px solid rgba(153, 219, 110, 0.5);*/
-/*  border-radius: 50%;*/
-/*  font-size: 0.85rem;*/
-/*  font-weight: 900;*/
-/*  letter-spacing: 0.08em;*/
-/*}*/
-
 .control-card h3 {
   color: var(--green);
   font-size: 1.8rem;
   margin-bottom: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 .control-card p {

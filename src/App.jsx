@@ -4,7 +4,6 @@ import navlogo from './assets/qb_transparent_website.png';
 
 
 import{
-    FaBookOpen,
     FaCheckCircle,
     FaChessKnight,
 
@@ -182,16 +181,13 @@ function App() {
                 <section id="about" className="section dark">
                     <div className="two-column about-section">
                         <div>
-                            <p className="eyebrow">About SDFA</p>
+                            <h3 className="eyebrow">About SDFA</h3>
 
                             <h2>
                                 Understand the game <span>before the snap.</span>
                             </h2>
 
-                            <p className="about-lead">
-                                Built for athletes, parents, coaches, and football
-                                fans who want the game explained clearly.
-                            </p>
+
                         </div>
 
                         <div className="about-content">
