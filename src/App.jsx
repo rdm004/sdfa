@@ -2,6 +2,18 @@ import './App.css';
 import logo from './assets/qb_transparent.png';
 import navlogo from './assets/qb_transparent_website.png';
 
+
+import{
+    FaBookOpen,
+    FaCheckCircle,
+    FaChessKnight,
+
+}from'react-icons/fa';
+
+import { PiBookOpenTextFill } from "react-icons/pi";
+
+import{GiAmericanFootballHelmet}from'react-icons/gi';
+
 import {
     FaYoutube,
     FaInstagram,
@@ -279,52 +291,69 @@ function App() {
                 <section id="pillars" className="section pillars-section">
                     <div className="section-header">
                         <p className="eyebrow">The SDFA Foundation</p>
+
                         <h2>The Four Pillars</h2>
 
                         <p>
-                            Everything we teach is designed to help athletes understand
-                            the game, make better decisions, build confidence, and
-                            become stronger leaders.
+                            Everything we teach is designed to help athletes understand the game,
+                            make better decisions, build confidence, and become stronger leaders.
                         </p>
                     </div>
 
                     <div className="pillar-grid">
+
                         <div className="pillar-card">
-                            <span className="pillar-number"></span>
+                            <div className="pillar-icon pillar-icon-green">
+                                <PiBookOpenTextFill/>
+                            </div>
+
                             <h3>Football IQ</h3>
+
                             <p>
-                                Understand defensive structure, coverages, leverage,
-                                assignments, and the clues that reveal what may happen
-                                next.
+                                Understand defensive structure, coverages, leverage, assignments,
+                                and the clues that reveal what may happen next.
                             </p>
                         </div>
 
                         <div className="pillar-card">
-                            <span className="pillar-number"></span>
+                            <div className="pillar-icon pillar-icon-blue knight-icon">
+                                <FaChessKnight/>
+                            </div>
+
                             <h3>Decision-Making</h3>
+
                             <p>
-                                Process information, recognize available options, and
-                                make smart decisions under pressure.
+                                Process information, recognize available options, and make smart
+                                decisions under pressure.
                             </p>
                         </div>
 
                         <div className="pillar-card">
-                            <span className="pillar-number"></span>
+                            <div className="pillar-icon pillar-icon-green">
+                                <FaCheckCircle/>
+                            </div>
+
                             <h3>Confidence</h3>
+
                             <p>
-                                Play faster and more decisively because you understand
-                                what you are seeing and trust your preparation.
+                                Play faster and more decisively because you understand what you
+                                are seeing and trust your preparation.
                             </p>
                         </div>
 
                         <div className="pillar-card">
-                            <span className="pillar-number"></span>
+                            <div className="pillar-icon pillar-icon-blue">
+                                <GiAmericanFootballHelmet/>
+                            </div>
+
                             <h3>Leadership</h3>
+
                             <p>
                                 Lead through communication, preparation, accountability,
                                 consistency, and example.
                             </p>
                         </div>
+
                     </div>
                 </section>
 
