@@ -491,11 +491,11 @@ function App() {
 
                     </div>
 
-                    <div className="development-path-summary">
-                        <p>
-                            See. Think. Decide. Execute.
-                        </p>
-                    </div>
+                    {/*<div className="development-path-summary">*/}
+                    {/*    <p>*/}
+                    {/*        See. Think. Decide. Execute.*/}
+                    {/*    </p>*/}
+                    {/*</div>*/}
                 </section>
 
                 <SectionDivider logo={logo} />

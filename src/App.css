@@ -1017,18 +1017,18 @@ h1 span {
   line-height:1;
 }
 
-.development-path-summary{
-  width:min(620px,90%);
-  margin:44px auto 0;
-  padding:22px 26px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:rgba(153,219,110,.07);
-  border:1px solid rgba(153,219,110,.35);
-  border-radius:14px;
-  text-align:center;
-}
+/*.development-path-summary{*/
+/*  width:min(620px,90%);*/
+/*  margin:44px auto 0;*/
+/*  padding:22px 26px;*/
+/*  display:flex;*/
+/*  align-items:center;*/
+/*  justify-content:center;*/
+/*  background:rgba(153,219,110,.07);*/
+/*  border:1px solid rgba(153,219,110,.35);*/
+/*  border-radius:14px;*/
+/*  text-align:center;*/
+/*}*/
 
 .development-path-summary p{
   width:100%;
